@@ -72,7 +72,7 @@ DISABLE_UNTRACKED_FILES_DIRTY="true"
 # HIST_STAMPS="mm/dd/yyyy"
 
 # Would you like to use another custom folder than $ZSH/custom?
-# ZSH_CUSTOM=/path/to/new-custom-folder
+ZSH_CUSTOM=$ZSH/user
 
 # Which plugins would you like to load?
 # Standard plugins can be found in ~/.oh-my-zsh/plugins/*
@@ -85,11 +85,11 @@ plugins=(
     # zsh-syntax-highlighting
     # gpg-agent
    zsh-autosuggestions
-   virtualenvwrapper
+#    virtualenvwrapper
    last-working-dir
-   nvm
-   kubectl
-   kube-ps1
+#    nvm
+#    kubectl
+#    kube-ps1
 )
 
 source $ZSH/oh-my-zsh.sh
