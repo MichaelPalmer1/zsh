@@ -1,2 +1,3 @@
-#export WORKON_HOME=/virtualenvs
+#export WORKON_HOME=$HOME/.virtualenvs
+source virtualenvwrapper.sh
 alias workoff='deactivate'
